@@ -1,0 +1,8 @@
+C:\Users\Memento\source\repos\Task3\Task3.3\bin\Debug\Task3.3.exe.config
+C:\Users\Memento\source\repos\Task3\Task3.3\bin\Debug\Task3.3.exe
+C:\Users\Memento\source\repos\Task3\Task3.3\bin\Debug\Task3.3.pdb
+C:\Users\Memento\source\repos\Task3\Task3.3\obj\Debug\Task3.3.csproj.AssemblyReference.cache
+C:\Users\Memento\source\repos\Task3\Task3.3\obj\Debug\Task3.3.csproj.SuggestedBindingRedirects.cache
+C:\Users\Memento\source\repos\Task3\Task3.3\obj\Debug\Task3.3.csproj.CoreCompileInputs.cache
+C:\Users\Memento\source\repos\Task3\Task3.3\obj\Debug\Task3.3.exe
+C:\Users\Memento\source\repos\Task3\Task3.3\obj\Debug\Task3.3.pdb
