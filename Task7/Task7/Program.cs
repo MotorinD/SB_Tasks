@@ -6,6 +6,8 @@ namespace Task7
     {
         static void Main(string[] args)
         {
+            EmployeesBook.LoadData();
+
             while (true)
             {
                 ShowChooseActionMessage();
@@ -21,8 +23,16 @@ namespace Task7
                         EmployeesBook.AddData();
                         break;
 
+                    case "3":
+                        EmployeesBook.EditData();
+                        break;
+
+                    case "4":
+                        EmployeesBook.DeleteData();
+                        break;
+
                     default:
-                        Console.WriteLine("\nНекорректный ввод действия, введите 1 или 2\n");
+                        Console.WriteLine("\nНекорректный ввод действия, введите число от 1 до 4\n");
                         break;
                 }
             }
@@ -33,7 +43,9 @@ namespace Task7
             Console.WriteLine(
                    "Выберите вариант введя число:\n" +
                    "1 - вывести данные\n" +
-                   "2 - добавить запись\n");
+                   "2 - добавить запись\n" +
+                   "3 - редактировать запись\n" +
+                   "4 - удалить запись");
         }
     }
 }
