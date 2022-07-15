@@ -1,8 +1,0 @@
-C:\Users\Memento\source\repos\Task6\Task6\bin\Debug\Task6.exe.config
-C:\Users\Memento\source\repos\Task6\Task6\bin\Debug\Task6.exe
-C:\Users\Memento\source\repos\Task6\Task6\bin\Debug\Task6.pdb
-C:\Users\Memento\source\repos\Task6\Task6\obj\Debug\Task6.csproj.AssemblyReference.cache
-C:\Users\Memento\source\repos\Task6\Task6\obj\Debug\Task6.csproj.SuggestedBindingRedirects.cache
-C:\Users\Memento\source\repos\Task6\Task6\obj\Debug\Task6.csproj.CoreCompileInputs.cache
-C:\Users\Memento\source\repos\Task6\Task6\obj\Debug\Task6.exe
-C:\Users\Memento\source\repos\Task6\Task6\obj\Debug\Task6.pdb

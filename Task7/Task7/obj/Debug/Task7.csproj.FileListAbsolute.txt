@@ -1,8 +1,0 @@
-C:\Users\Memento\source\repos\SB_Tasks\Task7\Task7\bin\Debug\Task7.exe.config
-C:\Users\Memento\source\repos\SB_Tasks\Task7\Task7\bin\Debug\Task7.exe
-C:\Users\Memento\source\repos\SB_Tasks\Task7\Task7\bin\Debug\Task7.pdb
-C:\Users\Memento\source\repos\SB_Tasks\Task7\Task7\obj\Debug\Task7.csproj.AssemblyReference.cache
-C:\Users\Memento\source\repos\SB_Tasks\Task7\Task7\obj\Debug\Task7.csproj.SuggestedBindingRedirects.cache
-C:\Users\Memento\source\repos\SB_Tasks\Task7\Task7\obj\Debug\Task7.csproj.CoreCompileInputs.cache
-C:\Users\Memento\source\repos\SB_Tasks\Task7\Task7\obj\Debug\Task7.exe
-C:\Users\Memento\source\repos\SB_Tasks\Task7\Task7\obj\Debug\Task7.pdb
