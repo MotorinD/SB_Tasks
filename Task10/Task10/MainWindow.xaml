@@ -1,0 +1,49 @@
+﻿<Window x:Class="Task10.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Task10"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="40*"/>
+            <ColumnDefinition Width="60*"/>
+        </Grid.ColumnDefinitions>
+        <ListBox x:Name="listBox" Grid.ColumnSpan="1" Background="#FFC0F5FF">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Border CornerRadius="10" Background="#FF5EBCED">
+                        <StackPanel Margin="5" Background="#FF5EBCED">
+                            <TextBlock Text="{Binding Date}"/>
+                            <TextBlock Text="{Binding FullName}"/>
+                            <TextBlock Text="{Binding Text}" FontSize="15"/>
+                        </StackPanel>
+                    </Border>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <GroupBox x:Name="groupBox" 
+                  Grid.Column="1"
+                  Header="Отправка сообщения" 
+                  FontSize="24"
+                  HorizontalAlignment="Stretch"
+                  VerticalAlignment="Stretch">
+            <StackPanel>
+                <TextBox x:Name="textBox"
+                         VerticalAlignment="Top"
+                         TextWrapping="Wrap" 
+                         Text="" 
+                         Margin="5,5,5,5" 
+                         FontSize="18" 
+                         Height="35"/>
+                <Button x:Name="sendMsgBtn" 
+                        Margin="5" 
+                        Height="35" 
+                        Width="150"
+                        Content="Отправить" Click="sendMsgBtn_Click"/>
+            </StackPanel>
+        </GroupBox>
+    </Grid>
+</Window>

@@ -199,7 +199,7 @@ namespace Task9
         /// </summary>
         private void WriteMessageOnConsole(Message message)
         {
-            Console.WriteLine($"Received a '{message.Text}' message ChatId:{message.Chat.Id}. Type:{message.Type}");
+            Console.WriteLine($"=> {DateTime.Now} Received a '{message.Text}' message ChatId:{message.Chat.Id}. Type:{message.Type} \n from {message.From?.FirstName} {message.From?.LastName} {message.From.Username}\n");
         }
 
         /// <summary>
